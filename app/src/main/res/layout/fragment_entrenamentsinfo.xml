@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|top"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:text="ENTRENAMIENTOS"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textViewFragmentinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pasos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"/>
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+
+        />
+</LinearLayout>
+
